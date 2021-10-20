@@ -18,6 +18,12 @@ npm run build
 # Set Up backend
 > Run the following commands from the root of spring-backend
 ```
+cd backend/src/main/resources
+```
+```
+config application.yml by adding your DB username and password
+```
+```
 mvn clean install
 ```
 ```
